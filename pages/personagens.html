@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+   <div id= 'bg'class="bg">
+   <h1 class="titulo">Escolha seu estilo de vida</h1>
+    
+   <section class="context">
+    
+      <div class="escolha">
+         <div class="opcoes">
+            <h2 class="cinismo">Cinismo</h2>
+         <p> a sua felicidade é obtida pela autarkeia: 
+            a autossuficiência, o autodomínio. No seu entendimento,
+            por sua vez, isto só se consegue mediante uma vida
+            totalmente dedicada à prática filosófica e um rompimento
+            radical com os padrões morais e sociais estabelecidos.
+            </p>
+            <input onclick="personagens('cinismo')" type="submit" value="Escolher">
+         </div><!--opcoes -->
+         <div class="opcoes">
+            <h2>Epicurismo</h2>
+            <p>O homem vive dividido entre duas possibilidades
+               básicas: o prazer e a dor. Sua felicidade, assim,
+               consiste em obter o maior prazer e a menor dor 
+               possíveis.segundo Epicuro, fundador da escola, há muitas dores
+               passageiras que, a longo prazo, geram prazeres enormes.</p>
+               <input onclick ="personagens('epicurismo')" type="submit" value="Escolher">
+            </div><!--opcoes-->
+         <div class="opcoes">
+            <h2>Ceticismo</h2>
+            <p> A ataraxia tranquilidade da alma, é obtida
+               através da suspensão do juízo, isto é, tudo é duvidoso, questionável e não 
+               se pode ter certeza de coisa alguma. A felicidade,
+               portanto, encontra-se não em agarrar-se a uma visão de
+               mundo específica, mas em perceber a relatividade de 
+               todas as crenças e suspender o juízo a respeito de
+               tudo.</p>
+            <input onclick ="personagens('ceticismo')" type="submit" value="Escolher">
+         </div><!--opcoes-->
+      </div><!--escolha-->
+      <audio autoplay loop controls>
+         <source src="../lo-fi.mp3">
+      </audio>
+   </section> <!--context-->
+   </div><!--bg-->
+   <script src="../js/jogo.js"></script>
+</body>
+</html>

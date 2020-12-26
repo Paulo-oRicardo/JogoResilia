@@ -21,7 +21,7 @@ function personagens(escolha) {
       }
 
       if(escolha == 'ceticismo'){
-         alert("ceticismo");
+         historiaCiticismo();
       }
    }else{
       alert("Respire um minuto, só continue se estiver verdadeiramente pronto");
